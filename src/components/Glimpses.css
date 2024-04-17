@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 2rem;
+}
+.main-heading span{
+    color: #4d55bb;
+}
+
+.rows{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.rows .tall {
+    margin-right: 0.3rem;
+}
+.rows .tall img{
+    width: 30vw;
+    height: 36.2rem;
+}
+.rows .tall video{
+    width: 26vw ;
+    height: 36rem;
+    margin: 0rem;
+    margin-left: 2px;
+}
+.rows .big {
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+}
+.rows .big img {
+    width: 36vw;
+    height: 18rem;
+    margin: 0rem;
+}
+.rows .biggest img {
+    width: 46vw;
+    height: 20rem;
+    margin: 0.1rem;
+}
+.rows2{
+    display: flex;
+    flex-direction: column;
+}
+.rows .rows2 .big img{
+    width: 36vw;
+    height: 19.5rem;
+    margin: 0rem;
+}
+.rows .rows2 .big video{
+    width: 36vw !important;
+    height: 16.1rem;
+    margin: 0rem;
+}
